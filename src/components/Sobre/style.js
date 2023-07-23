@@ -29,6 +29,7 @@ export const StyledAbout = styled.main`
     }
 
   .personal_description {
+    text-align: justify;
     @media (min-width: 768px) {
       width: 500px;
     }

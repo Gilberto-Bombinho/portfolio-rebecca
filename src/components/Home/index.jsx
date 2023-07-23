@@ -1,7 +1,7 @@
 import { StyledHome } from './styled.js'
-import Foto from '../../assets/anime.jpg'
+import Foto from '../../assets/odonto2.jpeg'
 import { Link } from 'react-router-dom'
-import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa'
+import {FaInstagram } from 'react-icons/fa'
 
 export const Home = () => {
   return (
@@ -11,17 +11,17 @@ export const Home = () => {
       <div className="description">
         <p >Olá, eu sou </p>
         <p className="nome">Dra. Rebeca Oliveira</p>
-
-        <div className="linkedIn_github">
+        <p className="cargo">Cirurgiã-Dentista</p>
+        
           <Link
-            className="linkedin"
+            className="instagram"
             to="https://www.instagram.com/rebeccasoliveira/"
             target="_blank"
           >
             {' '}
             <FaInstagram /> Instagram
           </Link>
-        </div>
+       
       </div>
     </StyledHome>
   )

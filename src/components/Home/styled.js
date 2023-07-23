@@ -48,31 +48,13 @@ export const StyledHome = styled.main`
       }
     }
 
-    .linkedIn_github {
-      display: flex;
-    }
-
-    .github {
+    .instagram {
       width: 120px;
       border-radius: 4px;
-      border: solid 1px #a66ed5;
-      color: #ffffff;
+      border: solid 1px #ac6730;
+      color: #ac6730;
       padding: 5px;
       text-decoration: none;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-    }
-
-    .linkedin {
-      width: 120px;
-      border-radius: 4px;
-      border: solid 1px #0077b5;
-      color: #ffffff;
-      padding: 5px;
-      text-decoration: none;
-      margin-left: 10px;
       display: flex;
       align-items: center;
       justify-content: center;
