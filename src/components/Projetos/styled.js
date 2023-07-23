@@ -13,6 +13,7 @@ export const StyledProjects = styled.main`
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    flex-direction: column;
 
     @media (min-width: 768px) {
       gap: 100px;
@@ -31,6 +32,7 @@ export const StyledProjects = styled.main`
         width: 400px;
         height: 400px;
         margin-bottom: 20px;
+        
       }
 
       img {

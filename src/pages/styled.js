@@ -25,7 +25,7 @@ export const StyledHomePage = styled.main`
       background-color: #f2dfd3;
       color: #ac6730;
       @media (min-width: 768px) {
-        border: 1px solid #ac6730;
+        
         border-radius: 4px;
         padding: 4px;
       }
