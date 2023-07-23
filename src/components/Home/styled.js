@@ -59,6 +59,9 @@ export const StyledHome = styled.main`
       align-items: center;
       justify-content: center;
       gap: 10px;
+      @media (min-width: 768px) {
+        width: 150px;
+      }
     }
   }
 `
